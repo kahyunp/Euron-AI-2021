@@ -1,0 +1,101 @@
+[ CS231n ] Introduction to Convloutional Neural Networks for Visual Recognition
+
+Visual data on internet 
+
+- really hard to understand
+
+Youtube
+
+- 3초 동안 15시간 분량의 비디오가 유튜브에 업로드됨
+
+
+
+
+This lecture focuses on neural networks and CNN and visual applications
+
+
+
+TOPIC
+
+A brie history of computer vision
+
+Evolution's Big Bang
+- fossil studies : 10 million yeasr - the number of animal species 🔝
+
+-around 540 million years : animals began to have eyes - they got VISION ❗️ =the biggest sensory system 
+
+History of Human's vision:
+
+1600s : camera obscura 
+
+Hubel and Wiesel (1950~1960s)'s work
+
+- used electrophysiology
+
+- "what was the visual process mechanism like in mammals, primates...?"
+
+- 고양이 뇌로 실험:
+
+   visual process starts with simple structure -> the brain builds up the pathway => understand complex visual world
+
+Block World by Larry Roberts,1963
+
+The Summer Vision Project, 1966
+
+David Marr,1970s
+
+
+Generalized Cylinder, Brooks & Binford, 1979 && Pictorial Structure, Fischler and Elschlager, 1973
+
+   Every object is composed of simple geomertric primitives
+
+IF it is hard to recognizae object maybe we should first do object segmentation
+
+HOW? 
+
+1. Take an image
+
+2. Grop the pixels into meaningful areas //can't tell if the pixels were a person or a background
+
+
+
+"AdaBoost Algorithm"
+
+SIFT, David Lowe, 1999
+
+    - find critical features and match the features to a similar object
+
+Spatial Pytamid Matching
+
+The quality of image improved meanwhile
+
+PASCAL Visual Object Challenge: 20 object recognition
+
+  => Are we ready to recognized things in the real world?
+
+  =>AdaBoost: high possibility of overfit !
+
+The Image Classification Challenge:
+
+    Result = Top 5 possible object list- if answer is in the list? CORRECT
+
+    2012: error rate dropped! Winning algorithm =CNN(Convolutional Neural Network)
+
+2012 had a remarkable breakthrough in neural network but it was not invented in 2012.
+
+There were foundational works: 1998 LeCun et al. 2012 Krizhevsky et al. //had architerctural similarities
+
+Factors contirbuted to advancement:
+
+  1. Computation -GPU 2. Improved data
+
+The goal of computer vision:
+
+   If people see a picture even for a very short amount time , they can tell or even make stories upon the image
+
+   People can not only sort the objects in the image, but they see and understand the situation.
+
+
+
+
+
